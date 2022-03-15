@@ -1,7 +1,7 @@
 const withPWA = require('next-pwa')
 const settings = {
     env: {
-        WORDPRESS_URL: process.env.WORDPRESS_URL
+        WORDPRESS_URL: 'https://positivityminds.com/wp-json'
     }
 }
 
